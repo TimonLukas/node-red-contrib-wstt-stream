@@ -1,12 +1,12 @@
 {
-  "name": "node-red-contrib-wstt-stream",
-  "version": "1.0.1",
-  "description": "Node-RED custom Watson Speech to Text Node. Uses the steraming API.",
+  "name": "node-red-contrib-wstt-stream-fixed",
+  "version": "0.0.1",
+  "description": "Node-RED custom Watson Speech to Text Node. Uses the streaming API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Timon Lukas <timon.lukas3@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "mic": "git+https://github.com/ashishbajaj99/mic.git#2c61413e501922768c3695575a6b78f684c518da",
@@ -21,7 +21,8 @@
     }
   },
   "repository": {
-    "git": "https://github.com/ullumullu/node-red-contrib-wstt-stream"
+    "type": "git",
+    "url": "git+https://github.com/TimonLukas/node-red-contrib-wstt-stream-fixed.git"
   },
   "engines": {
     "node": "6.x"
