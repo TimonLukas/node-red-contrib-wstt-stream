@@ -75,7 +75,6 @@ module.exports = function (RED) {
                                         if (silenceSamples === trigger) {
                                             if (sttStream) sttStream.end();
                                             sttStream = undefined;
-                                            node.send({payload: 'silence'});
                                             node.status({fill: 'blue', shape: 'dot', text: 'silence'});
                                         }
                                     }
